@@ -32,7 +32,7 @@ $(document).ready(function() {
             $('#chosenDate').val(''); 
             
             $('#result').css('display', 'none');
-            window.location.href = 'date.html';
+            window.location.href = 'food.html';
         }
     });
 
@@ -40,7 +40,7 @@ $(document).ready(function() {
         $('#result').css('display', 'none');
 
         $('#dateSelection').css('display', 'none');
-        window.location.href = 'date.html';
+        window.location.href = 'food.html';
     });
 
     
