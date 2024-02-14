@@ -4,28 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Choices</title>
-    <link rel="stylesheet" href="restaurant.css">
+    <link rel="stylesheet" href="/css/restaurant.css">
 </head>
 <body>
     <div class="restaurant-container">
-        <!-- Hotpot -->
+
         <div class="restaurant">
-            <img src="hotpot.jpg" alt="Hotpot" class="food-img">
+            <img src="/asset/hotpot.jpg" alt="Hotpot" class="food-img">
             <input type="checkbox" id="hotpot" name="restaurant" value="Hotpot">
-            <label for="hotpot">Hotpot Restaurant</label>
+            <label for="hotpot">Hadilao</label>
         </div>
-        <!-- Hamburger -->
+        
         <div class="restaurant">
-            <img src="hamburger.jpg" alt="Hamburger" class="food-img">
+            <img src="/asset/bbq.jpg" alt="Hamburger" class="food-img">
             <input type="checkbox" id="hamburger" name="restaurant" value="Hamburger">
-            <label for="hamburger">Hamburger Restaurant</label>
+            <label for="hamburger">Baekjong Restaurant</label>
         </div>
-        <!-- Chicken Wing -->
+
         <div class="restaurant">
-            <img src="chicken-wing.jpg" alt="Chicken Wing" class="food-img">
+            <img src="/asset/wing.jpg" alt="Chicken Wing" class="food-img">
             <input type="checkbox" id="chicken-wing" name="restaurant" value="Chicken Wing">
             <label for="chicken-wing">Chicken Wing Restaurant</label>
         </div>
+
+        
+            
+        
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Don't be my Valentine, be my everyday 😍</p>
+            </div>
+        </div>
+
+        
     </div>
+
+    <div class="button-container">
+        <button type="button" id="submitChoices">Submit</button>
+    </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./script/restaurant.js"></script>
 </body>
 </html>
