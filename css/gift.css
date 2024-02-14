@@ -15,7 +15,7 @@
     font-size: 20px;
     color: #d63384;
     text-align: center;
-    display: none; /* Hide by default */
+    display: none;
 }
 
 .result-hidden {
