@@ -23,20 +23,22 @@ $(document).ready(function() {
     $('#submitDate').click(function() {
         var chosenDate = $('#chosenDate').val();
         if (chosenDate) {
-         
+
             alert(`On ${chosenDate}, we are going to Disneyland!`);
             
             $('#dateSelection').css('display', 'none');
             $('#chosenDate').val(''); 
             
             $('#result').css('display', 'none');
+            window.location.href = 'date.html';
         }
     });
 
     $('.close').click(function() {
         $('#result').css('display', 'none');
-       
+
         $('#dateSelection').css('display', 'none');
+        window.location.href = 'date.html';
     });
 
     

@@ -12,8 +12,8 @@
         <h2>Choose your gift!</h2>
         <div class="gifts-container">
             <button class="gift" data-gift="Disneyland">Disneyland Ticket</button>
-            <button class="gift" data-gift="Universal">Universal Ticket</button>
-            <button class="gift" data-gift="SeaWorld">SeaWorld Ticket</button>
+            <button class="gift" data-gift="Universal">$2000 cash</button>
+            <button class="gift" data-gift="SeaWorld">Suprise gift</button>
         </div>
         <div id="result" class="modal">
             <div class="modal-content">
@@ -25,6 +25,14 @@
                 </div>
             </div>
         </div>
+
+        <div id="customAlert" class="modal" style="display: none;">
+            <div class="modal-content" style="background-color: green;">
+                <span class="closeCustomAlert" style="color: white;">&times;</span>
+                <p id="customAlertText" style="color: white;"></p>
+            </div>
+        </div>
+
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./script/gift.js"></script> 
