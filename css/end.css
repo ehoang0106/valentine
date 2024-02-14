@@ -1,0 +1,44 @@
+body {
+    background-color: #fff5e4; /* Soft background color */
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;   
+    max-width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+h2 {
+    color: #d63384; /* Pink color for headings */
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+p {
+    color: #333; /* Dark text color */
+    font-size: 20px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+img {
+    height: 500px;
+}
+
+.img-container {
+    margin-left: 180px;
+    margin-top: 50px;
+}

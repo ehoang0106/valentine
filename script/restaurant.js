@@ -1,12 +1,23 @@
 $(document).ready(function() {
-    $('#submitChoices').click(function() {
-        // Display the custom alert
-        $('#customAlert').css('display', 'block');
-        $('#customAlertText').text('Sorry girl, the only option right now is hamburger');
+    let noBtnClickCount = 0;
+
+    $('#yes-btn').click(function() {
+        $('#myModal').css('display', 'block');
     });
 
-    // Close custom alert logic
+
     $('.close').click(function() {
-        $('#customAlert').css('display', 'none');
+        $('#myModal').css('display', 'none');
+        
     });
+
+
+    $(window).click(function(event) {
+        if ($(event.target).is('#myModal')) {
+            $('#myModal').css('display', 'none');
+            window.location.href = 'end.html';
+        }
+    });
+
+    
 });

@@ -83,19 +83,25 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
-button#submitChoices {
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button#yes-btn {
     background-color: #d63384; /* Example: pink background */
     color: white;
-    padding: 10px 15px;
+    padding: 20px 35px;
     font-family: 'Quicksand', sans-serif; /* Assuming Quicksand is used based on previous discussions */
-    font-size: 16px;
+    font-size: 25px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 20px;
 }
 
-button#submitChoices:hover {
+button#yes-btn:hover {
     background-color: #b82e6d; /* Darker shade on hover */
 }
 
