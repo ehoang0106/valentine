@@ -6,12 +6,14 @@ $(document).ready(function() {
         let giftType = $(this).data('gift');
         if (giftType === 'Universal') {
             universalClickCount++;
-            if (universalClickCount === 2) {
+            if (universalClickCount === 1) {
+                alert("Yeah, you know I'm broke, I don't have that much money 😥");
                 $(this).hide();
             }
         } else if (giftType === 'SeaWorld') {
             seaWorldClickCount++;
-            if (seaWorldClickCount === 2) {
+            if (seaWorldClickCount === 1) {
+                alert("Sorry! There is no suprise gift for you 🙄");
                 $(this).hide();
             }
         } else {
@@ -24,7 +26,7 @@ $(document).ready(function() {
         var chosenDate = $('#chosenDate').val();
         if (chosenDate) {
 
-            alert(`On ${chosenDate}, we are going to Disneyland!`);
+            alert(`Yayyy! On ${chosenDate}, we are going to Disneyland! 🏃‍♀️`);
             
             $('#dateSelection').css('display', 'none');
             $('#chosenDate').val(''); 

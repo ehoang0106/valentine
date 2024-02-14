@@ -8,14 +8,14 @@ $(document).ready(function() {
 
     $('.close').click(function() {
         $('#myModal').css('display', 'none');
-        window.location.href = 'date.html';
+        window.location.href = 'gift.html';
     });
 
 
     $(window).click(function(event) {
         if ($(event.target).is('#myModal')) {
             $('#myModal').css('display', 'none');
-            window.location.href = 'date.html';
+            window.location.href = 'gift.html';
         }
     });
 
