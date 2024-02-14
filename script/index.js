@@ -27,7 +27,7 @@ $(document).ready(function() {
             return (parseInt(val) + 5) + 'px';
         });
 
-        if (noBtnClickCount >= 3 && noBtnClickCount < 7) {
+        if (noBtnClickCount >= 3 && noBtnClickCount < 10) {
             $(this).css({
                 'top': (Math.random() * 100 - 50) + 'px',
                 'left': (Math.random() * 100 - 50) + 'px',
@@ -35,7 +35,7 @@ $(document).ready(function() {
             });
         }
 
-        if (noBtnClickCount >= 7) {
+        if (noBtnClickCount >= 10) {
             $(this).css('display', 'none');
         }
     });
