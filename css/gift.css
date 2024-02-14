@@ -1,0 +1,27 @@
+.gifts-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gift {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 20px;
+    color: #d63384;
+    text-align: center;
+    display: none; /* Hide by default */
+}
+
+.result-hidden {
+    display: none;
+}
+
+.result-shown {
+    display: block;
+}
