@@ -1,6 +1,9 @@
 $(document).ready(function() {
     $('.gift').click(function() {
+        $('#result').css('display', 'block');
+    });
 
-        $('#result').removeClass('result-hidden').addClass('result-shown');
+    $('.close').click(function() {
+        $('#result').css('display', 'none');
     });
 });
