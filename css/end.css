@@ -1,5 +1,5 @@
 body {
-    background-color: #fff5e4; /* Soft background color */
+    background-color: #fff5e4; 
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -18,17 +18,17 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 h2 {
-    color: #ff9494; /* Pink color for headings */
+    color: #ff9494; 
     margin-bottom: 20px;
     font-size: 30px;
 }
 
 p {
-    color: #333; /* Dark text color */
+    color: #333;
     font-size: 20px;
     margin-bottom: 2px;
     font-weight: bold;

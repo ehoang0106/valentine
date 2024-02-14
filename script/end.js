@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   
+
     $('.container').fadeIn(1000);
 
     
@@ -9,7 +9,7 @@ $(document).ready(function() {
         $(this).css('color', '#d63384');
     });
 
-    // Add a click event to the paragraphs
+
     $('p').click(function() {
         $(this).toggleClass('highlighted'); 
     });

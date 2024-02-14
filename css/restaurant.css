@@ -1,5 +1,5 @@
 body {
-    background-color: #fff5e4; /* Soft background color */
+    background-color: #fff5e4; 
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -95,10 +95,10 @@ input[type="checkbox"] {
 }
 
 button#yes-btn {
-    background-color: #f06f6f; /* Example: pink background */
+    background-color: #f06f6f; 
     color: white;
     padding: 20px 35px;
-    font-family: 'Quicksand', sans-serif; /* Assuming Quicksand is used based on previous discussions */
+    font-family: 'Quicksand', sans-serif; 
     font-size: 25px;
     border: none;
     border-radius: 5px;
@@ -108,6 +108,6 @@ button#yes-btn {
 }
 
 button#yes-btn:hover {
-    background-color: #ff9494; /* Darker shade on hover */
+    background-color: #ff9494; 
 }
 
