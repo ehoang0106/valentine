@@ -32,7 +32,7 @@ $(document).ready(function() {
             $('#chosenDate').val(''); 
             
             $('#result').css('display', 'none');
-            window.location.href = 'food.html';
+            window.location.href = 'restaurant.html';
         }
     });
 
@@ -40,11 +40,13 @@ $(document).ready(function() {
         $('#result').css('display', 'none');
 
         $('#dateSelection').css('display', 'none');
-        window.location.href = 'food.html';
+        window.location.href = 'restaurant.html';
     });
 
     
     $('.gift[data-gift="Disneyland"]').click(function() {
         $('#dateSelection').css('display', 'block');
+        
+
     });
 });
