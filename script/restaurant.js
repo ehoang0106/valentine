@@ -8,6 +8,7 @@ $(document).ready(function() {
 
     $('.close').click(function() {
         $('#myModal').css('display', 'none');
+        window.location.href = 'end.html';
         
     });
 
